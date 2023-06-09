@@ -1,0 +1,48 @@
+@import "normalize.css";
+@import "@/app/styles/variables";
+@import "@/app/styles/responsive";
+
+/*Font Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100&family=Syne:wght@400;500;600;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+p{
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0;
+  font-weight: 600;
+  font-size: 56px;
+
+  @include phone{
+    font-size: 32px;
+  }
+}
+
+h2{
+  margin: 0;
+  font-weight: 600;
+  font-size: 32px;
+
+  @include phone{
+    font-size: 18px;
+  }
+}

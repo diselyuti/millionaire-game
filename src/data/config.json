@@ -1,0 +1,248 @@
+{
+  "currentQuestion": 0,
+  "steps": [
+    {
+      "id": 1,
+      "prize": 100,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 2,
+      "prize": 200,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 3,
+      "prize": 300,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 4,
+      "prize": 500,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 5,
+      "prize": 1000,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 6,
+      "prize": 2000,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 7,
+      "prize": 4000,
+      "selected": false,
+      "finished": false
+    },
+    {
+      "id": 8,
+      "prize": 8000,
+      "selected": false,
+      "finished": false
+    }
+  ],
+  "isGameOver": false,
+  "questions": [
+    {
+      "question": "Якими кольорами складається прапор України?",
+      "correctAnswerId": 1,
+      "prizeId": 1,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Жовтий та синій"
+        },
+        {
+          "id": 2,
+          "answer": "Червоний та чорний"
+        },
+        {
+          "id": 3,
+          "answer": "Зелений та блакитний"
+        },
+        {
+          "id": 4,
+          "answer": "Червоний та білий"
+        }
+      ]
+    },
+    {
+      "question": "Який океан є найбільшим за площею?",
+      "correctAnswerId": 2,
+      "prizeId": 2,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Атлантичний океан"
+        },
+        {
+          "id": 2,
+          "answer": "Тихий океан"
+        },
+        {
+          "id": 3,
+          "answer": "Індійський океан"
+        },
+        {
+          "id": 4,
+          "answer": "Північний Льодовитий океан"
+        }
+      ]
+    },
+    {
+      "question": "Хто написав роман \"Майстер і Маргарита\"?",
+      "correctAnswerId": 3,
+      "prizeId": 3,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Лев Толстой"
+        },
+        {
+          "id": 2,
+          "answer": "Федор Достоєвський"
+        },
+        {
+          "id": 3,
+          "answer": "Михайло Булгаков"
+        },
+        {
+          "id": 4,
+          "answer": "Антон Чехов"
+        }
+      ]
+    },
+    {
+      "question": "Який материк має найбільшу площу?",
+      "correctAnswerId": 3,
+      "prizeId": 4,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Африка"
+        },
+        {
+          "id": 2,
+          "answer": "Австралія"
+        },
+        {
+          "id": 3,
+          "answer": "Євразія"
+        },
+        {
+          "id": 4,
+          "answer": "Північна Америка"
+        }
+      ]
+    },
+    {
+      "question": "Як називається столиця Японії?",
+      "correctAnswerId": 3,
+      "prizeId": 5,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Киото"
+        },
+        {
+          "id": 2,
+          "answer": "Осака"
+        },
+        {
+          "id": 3,
+          "answer": "Токіо"
+        },
+        {
+          "id": 4,
+          "answer": "Хоккайдо"
+        }
+      ]
+    },
+    {
+      "question": "Хто зображений на найпоширеніших банкнотах долара США?",
+      "correctAnswerId": 2,
+      "prizeId": 6,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Джордж Вашингтон"
+        },
+        {
+          "id": 2,
+          "answer": "Авраам Лінкольн"
+        },
+        {
+          "id": 3,
+          "answer": "Бенджамін Франклін"
+        },
+        {
+          "id": 4,
+          "answer": "Томас Джефферсон"
+        }
+      ]
+    },
+    {
+      "question": "Як називається найвища гора світу?",
+      "correctAnswerId": 2,
+      "prizeId": 7,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Монблан"
+        },
+        {
+          "id": 2,
+          "answer": "Еверест"
+        },
+        {
+          "id": 3,
+          "answer": "Кіліманджаро"
+        },
+        {
+          "id": 4,
+          "answer": "Аконкагуа"
+        }
+      ]
+    },
+    {
+      "question": "Як називається фігура з чотирма однаковими сторонами і чотирма прямими кутами?",
+      "correctAnswerId": 4,
+      "prizeId": 8,
+      "isAnswered": false,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Круг"
+        },
+        {
+          "id": 2,
+          "answer": "Трикутник"
+        },
+        {
+          "id": 3,
+          "answer": "Прямокутник"
+        },
+        {
+          "id": 4,
+          "answer": "Квадрат"
+        }
+      ]
+    }
+  ]
+}

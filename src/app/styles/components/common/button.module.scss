@@ -1,0 +1,41 @@
+@import "@/app/styles/variables";
+@import "@/app/styles/responsive";
+
+.button{
+  font-weight: 600;
+  font-size: 20px;
+
+  cursor: pointer;
+
+  border-radius: 3 * $base;
+
+  padding: 5 * $base 6 * $base;
+
+  width: 100%;
+
+  background-color: $orange-100;
+  color: $white-100;
+
+  transition: 0.3s;
+
+
+  @include tablet{
+    &:hover{
+      background-color: $orange-80;
+    }
+
+    &:active{
+      background-color: $orange-120;
+    }
+  }
+
+  @include phone{
+    padding: 4 * $base 6 * $base;
+
+    font-size: 14px;
+
+    &:active{
+      background-color: $orange-120;
+    }
+  }
+}

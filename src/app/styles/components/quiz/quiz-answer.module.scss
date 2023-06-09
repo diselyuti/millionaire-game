@@ -1,0 +1,58 @@
+@import "@/app/styles/variables.scss";
+@import "@/app/styles/responsive.scss";
+
+.hexagon {
+  display: flex;
+  align-items: center;
+
+  padding: 6 * $base 12 * $base;
+
+  width: 108 * $base;
+  height: 19 * $base;
+
+  @include phone{
+    width: 80 * $base;
+    height: 14 * $base;
+  }
+
+  background: url("/shapes/inactive-answer-shape.svg") no-repeat;
+  background-size: 100%;
+
+  cursor: pointer;
+
+  &:hover {
+    background: url("/shapes/hover-answer-shape.svg") no-repeat !important;
+    background-size: 100% !important;
+  }
+
+  &.selected {
+    background: url("/shapes/selected-answer-shape.svg") no-repeat;
+    background-size: 100%;
+  }
+
+  &.correct {
+    background: url("/shapes/correct-answer-shape.svg") no-repeat;
+    background-size: 100%;
+  }
+
+  &.wrong {
+    background: url("/shapes/wrong-answer-shape.svg") no-repeat;
+    background-size: 100%;
+  }
+}
+
+.answerText{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.letter{
+  color: $orange-100;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 2 * $base;
+}

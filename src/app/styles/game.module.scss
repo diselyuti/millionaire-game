@@ -1,0 +1,67 @@
+@import "variables";
+@import "responsive";
+
+.layout{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+}
+
+.openedMenu{
+  .main{
+    display: none;
+  }
+  .aside{
+    max-width: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main{
+  background-color: $black-5;
+  width: 100%;
+
+  padding: 33 * $base 20 * $base;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include phone{
+    align-items: center;
+
+    padding: 12 * $base 4 * $base;
+  }
+}
+
+.aside{
+  background-color: $white-100;
+
+  width: 100%;
+  max-width: 94 * $base;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include phone{
+      display: none;
+  }
+}
+
+.menuButton{
+  position: absolute;
+  top: 5 * $base;
+  right: 5 * $base;
+
+  cursor: pointer;
+
+  @include tablet{
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+@import "@/app/styles/variables.scss";
+@import "@/app/styles/responsive.scss";
+
+.answers{
+  display: grid;
+  grid-template-columns: repeat(2, 105 * $base);
+  grid-column-gap: 0;
+  grid-row-gap: 16px;
+
+  @include phone{
+    grid-template-columns: repeat(1, 80 * $base);
+  }
+}

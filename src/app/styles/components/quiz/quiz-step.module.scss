@@ -1,0 +1,37 @@
+@import "@/app/styles/variables.scss";
+
+.steps{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2 * $base;
+}
+
+.step{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2 * $base 6 * $base;
+
+  width: 94 * $base;
+  height: 10 * $base;
+
+  background: url("/shapes/inactive-step-shape.svg") no-repeat;
+  background-size: 100%;
+
+  &.finished {
+    background: url("/shapes/finished-step-shape.svg") no-repeat;
+    color: $black-40;
+    background-size: 100%;
+  }
+
+  &.selected {
+    background: url("/shapes/current-step-shape.svg") no-repeat;
+    color: $orange-100;
+    background-size: 100%;
+  }
+}
+
+
