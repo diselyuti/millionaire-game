@@ -50,7 +50,7 @@ function Page() {
             <h2 className={styles.score}>Total score:</h2>
             <h1>
               {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-              <span>${score}</span>
+              <span data-testid="score">${score}</span>
               <span>earned</span>
             </h1>
           </div>

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizStepFinished should match snapshot 1`] = `
+<div>
+  <article
+    class="step finished"
+  >
+    <p>
+      $100
+    </p>
+  </article>
+</div>
+`;

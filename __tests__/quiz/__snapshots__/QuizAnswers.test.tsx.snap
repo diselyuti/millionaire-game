@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizAnswers should render QuizAnswers 1`] = `
+<div>
+  <section
+    class="answers"
+  >
+    <button
+      class="hexagon"
+      type="button"
+    >
+      <p
+        class="answerText"
+      >
+        <span
+          class="letter"
+        >
+          A
+        </span>
+        <span>
+          Жовтий та синій
+        </span>
+      </p>
+    </button>
+    <button
+      class="hexagon"
+      type="button"
+    >
+      <p
+        class="answerText"
+      >
+        <span
+          class="letter"
+        >
+          B
+        </span>
+        <span>
+          Червоний та чорний
+        </span>
+      </p>
+    </button>
+    <button
+      class="hexagon"
+      type="button"
+    >
+      <p
+        class="answerText"
+      >
+        <span
+          class="letter"
+        >
+          C
+        </span>
+        <span>
+          Зелений та блакитний
+        </span>
+      </p>
+    </button>
+    <button
+      class="hexagon"
+      type="button"
+    >
+      <p
+        class="answerText"
+      >
+        <span
+          class="letter"
+        >
+          D
+        </span>
+        <span>
+          Червоний та білий
+        </span>
+      </p>
+    </button>
+  </section>
+</div>
+`;

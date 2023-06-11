@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizAnswerWrong should render QuizAnswerWrong 1`] = `
+<div>
+  <div
+    class="hexagon wrong"
+  >
+    <p
+      class="answerText"
+    >
+      <span
+        class="letter"
+      >
+        A
+      </span>
+      <span>
+        Answer
+      </span>
+    </p>
+  </div>
+</div>
+`;

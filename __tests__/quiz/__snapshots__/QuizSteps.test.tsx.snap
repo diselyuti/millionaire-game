@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizSteps should match snapshot 1`] = `
+<div>
+  <div
+    class="steps"
+  >
+    <article
+      class="step"
+    >
+      <p>
+        $100
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $200
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $300
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $500
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $1,000
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $2,000
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $4,000
+      </p>
+    </article>
+    <article
+      class="step"
+    >
+      <p>
+        $8,000
+      </p>
+    </article>
+  </div>
+</div>
+`;
